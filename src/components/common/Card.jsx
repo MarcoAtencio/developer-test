@@ -1,7 +1,7 @@
 import { Title, Card, GroupButton } from '../../styles/Common';
 import { useState } from 'react';
 import { Button } from './Buttons';
-import { Field } from './Inputs';
+import { Field, FielDate } from './Inputs';
 import { useTranslation } from 'react-i18next';
 
 export const FormBusiness = ({ title, action, name }) => {
@@ -104,10 +104,12 @@ export const FormPerson = ({ title, action, data }) => {
           setChanged={handelChange}
         />
 
-        {/* <Field>
-        <Label>Join Date</Label>
-        <Field type='datetime-local' />
-      </Field> */}
+        <Field
+          label={t('cards.person.labels.join-date')}
+          name='join_date'
+          value={person.join_date}
+          setChanged={handelChange}
+        />
       </div>
 
       <GroupButton>
