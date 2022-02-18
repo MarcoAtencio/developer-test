@@ -12,7 +12,7 @@ import i18next from 'i18next';
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
 import { useNavigate } from 'react-router-dom';
 import { Button } from './components/common/Buttons';
-import { Title } from './styles/Common';
+import { Title, Text, AnchorStyle, NotFoundWrapper } from './styles/Common';
 
 import global_es from './translations/es/global.json';
 import global_en from './translations/en/global.json';
@@ -24,7 +24,15 @@ function Home() {
     <div>
       <h1>Tribal Coding Challenge - Frontend </h1>
       <div style={{ padding: 30 }}>
-        <Title style={{ marginBottom: 20 }}>Marco Antonio Atencio Maravi</Title>
+        <Title>Marco Antonio Atencio Maravi</Title>
+
+        <AnchorStyle
+          href=' https://github.com/MarcoAtencio/developer-test'
+          target='_blank'
+        >
+          Link del repositorio
+        </AnchorStyle>
+
         <Button
           name='App'
           mode='secondary'
@@ -36,7 +44,22 @@ function Home() {
 }
 
 function NotFound() {
-  return <h1>Sent Invoices</h1>;
+  const navigate = useNavigate();
+  return (
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+      }}
+    >
+      <NotFoundWrapper>
+        <h1> Ocurrio algo </h1>
+        <Button name='Regresar a la App' onClick={() => navigate('/')} />
+      </NotFoundWrapper>
+    </div>
+  );
 }
 
 i18next.init({
@@ -70,6 +93,7 @@ render(
             </Route>
             <Route path='sent' element={<Home />} />
           </Route>
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </I18nextProvider>

@@ -81,6 +81,12 @@ export const ButtonStyle = styled.button`
   }
 `;
 
+export const AnchorStyle = styled.a`
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+`;
+
 export const Label = styled.label`
   color: var(--color-gray-500);
   margin-bottom: 0.2rem;
@@ -116,4 +122,11 @@ export const ModalWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+`;
+
+export const NotFoundWrapper = styled.div`
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 `;

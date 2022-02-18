@@ -25,10 +25,7 @@ export const ListBusiness = ({ businesses }) => {
   const Business = ({ business }) => {
     return (
       <ItemRow>
-        <Link
-          to={`/businesses/${business.businessId}`}
-          key={business.businessId}
-        >
+        <Link to={`/business/${business.businessId}`} key={business.businessId}>
           <Text>{business.name}</Text>
         </Link>
         <Actions>

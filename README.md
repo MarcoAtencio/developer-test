@@ -6,6 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+- [React.js](https://reactjs.org/)
+- [Styled components](https://styled-components.com/)
+- [React Router Dom 6](https://reactrouter.com/)
+- [Redux](https://redux.js.org/)
+- [i18next](https://www.i18next.com/)
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -68,4 +78,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # developer-test

@@ -14,11 +14,7 @@ import {
 } from '../actions/types';
 
 const initialState = {
-  businesses: [
-    { businessId: 'ewrwer', name: 'PenIcon' },
-    { businessId: 'ewrwer1231', name: 'PepSo' },
-    { businessId: 'e131', name: 'Toyota' },
-  ],
+  businesses: [],
   business: {},
   loading: true,
   persons: [],
