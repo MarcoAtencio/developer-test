@@ -1,0 +1,48 @@
+{
+  "header": {
+    "bussiness": "Bussiness"
+  },
+  "sidebar": {
+    "overview": "Overview",
+    "tribal-pay": "Tribal Pay",
+    "tribal-credit": "Tribal Credit",
+    "payments": "Payments",
+    "notifications": "Notifications",
+    "users": "Users"
+  },
+  "buttons": {
+    "create-business": "Create Business",
+    "create-person": "Create Person",
+    "create": "Create",
+    "delete": "Remove",
+    "update": "Update",
+    "cancel": "Cancel"
+  },
+  "cards": {
+    "business": {
+      "title": {
+        "create": "Create Business",
+        "update": "Update Business"
+      },
+      "labels": {
+        "name": "Name"
+      }
+    },
+    "person": {
+      "title": {
+        "create": "Create Person",
+        "update": "Update Person"
+      },
+      "labels": {
+        "name": "Name",
+        "role": "Role",
+        "email": "Email",
+        "phone": "Phone",
+        "join-date": "Join Date"
+      }
+    },
+    "delete": {
+      "title": "Are you sure to delete"
+    }
+  }
+}

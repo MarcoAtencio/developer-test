@@ -1,0 +1,48 @@
+{
+  "header": {
+    "bussiness": "Negocios"
+  },
+  "sidebar": {
+    "overview": "General",
+    "tribal-pay": "Tribal Pagos",
+    "tribal-credit": "Tribal Credito",
+    "payments": "Pagos",
+    "notifications": "Notificationes",
+    "users": "Usuarios"
+  },
+  "buttons": {
+    "create-business": "Crear Negocio",
+    "create-person": "Crear Persona",
+    "create": "Agregar",
+    "update": "Actualizar",
+    "delete": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "cards": {
+    "business": {
+      "title": {
+        "create": "Crear Negocio",
+        "update": "Actualizar Negocio"
+      },
+      "labels": {
+        "name": "Nombre"
+      }
+    },
+    "person": {
+      "title": {
+        "create": "Crear Persona",
+        "update": "Actualizar Persona"
+      },
+      "labels": {
+        "name": "Nombre",
+        "role": "Rol",
+        "email": "Email",
+        "phone": "Celular",
+        "join-date": "Fecha de Ingreso"
+      }
+    },
+    "delete": {
+      "title": "Estar seguro de borrar a"
+    }
+  }
+}
